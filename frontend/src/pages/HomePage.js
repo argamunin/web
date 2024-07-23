@@ -71,11 +71,21 @@ function HomePage() {
             <FlipCard
               frontContent={require("@images/img7.png")}
               backContent={
-                <p>
-                  ¡Prepárate para una aventura épica mientras desafiamos las
-                  leyes del cosmos y luchamos contra el tiempo en esta
-                  emocionante odisea espacial!
-                </p>
+                <div>
+                  <p>
+                    ¡Prepárate para una aventura épica mientras desafiamos las
+                    leyes del cosmos y luchamos contra el tiempo en esta
+                    emocionante odisea espacial!
+                  </p>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.Argamunin.com.unity.template.mobile2D"
+                    className={styles.iconButton}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className={styles.buttonTab}>Jugar</button>
+                  </a>
+                </div>
               }
             />
           </div>
@@ -83,11 +93,21 @@ function HomePage() {
             <FlipCard
               frontContent={require("@images/img7.png")}
               backContent={
-                <p>
-                  ¡Prepárate para una aventura épica mientras desafiamos las
-                  leyes del cosmos y luchamos contra el tiempo en esta
-                  emocionante odisea espacial!
-                </p>
+                <div>
+                  <p>
+                    ¡Prepárate para una aventura épica mientras desafiamos las
+                    leyes del cosmos y luchamos contra el tiempo en esta
+                    emocionante odisea espacial!
+                  </p>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.Argamunin.com.unity.template.mobile2D"
+                    className={styles.iconButton}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className={styles.buttonTab}>Jugar</button>
+                  </a>
+                </div>
               }
             />
           </div>
@@ -95,11 +115,21 @@ function HomePage() {
             <FlipCard
               frontContent={require("@images/img7.png")}
               backContent={
-                <p>
-                  ¡Prepárate para una aventura épica mientras desafiamos las
-                  leyes del cosmos y luchamos contra el tiempo en esta
-                  emocionante odisea espacial!
-                </p>
+                <div>
+                  <p>
+                    ¡Prepárate para una aventura épica mientras desafiamos las
+                    leyes del cosmos y luchamos contra el tiempo en esta
+                    emocionante odisea espacial!
+                  </p>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.Argamunin.com.unity.template.mobile2D"
+                    className={styles.iconButton}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className={styles.buttonTab}>Jugar</button>
+                  </a>
+                </div>
               }
             />
           </div>
@@ -107,11 +137,21 @@ function HomePage() {
             <FlipCard
               frontContent={require("@images/img7.png")}
               backContent={
-                <p>
-                  ¡Prepárate para una aventura épica mientras desafiamos las
-                  leyes del cosmos y luchamos contra el tiempo en esta
-                  emocionante odisea espacial!
-                </p>
+                <div>
+                  <p>
+                    ¡Prepárate para una aventura épica mientras desafiamos las
+                    leyes del cosmos y luchamos contra el tiempo en esta
+                    emocionante odisea espacial!
+                  </p>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.Argamunin.com.unity.template.mobile2D"
+                    className={styles.iconButton}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className={styles.buttonTab}>Jugar</button>
+                  </a>
+                </div>
               }
             />
           </div>
