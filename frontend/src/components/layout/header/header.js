@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import styles from "./header.module.scss";
 
 export default function Header() {
@@ -13,9 +14,15 @@ export default function Header() {
         />
       </div>
       <div className={styles.containerTabs}>
-        <button className={styles.buttonTab}>Inicio</button>
-        <button className={styles.buttonTab}>Juegos</button>
-        <button className={styles.buttonTab}>Equipo</button>
+        <a href="#">
+          <button className={styles.buttonTab}>Inicio</button>
+        </a>
+        <a href="#project-section">
+          <button className={styles.buttonTab}>Juegos</button>
+        </a>
+        <a href="#team-section">
+          <button className={styles.buttonTab}>Equipo</button>
+        </a>
       </div>
     </div>
   );

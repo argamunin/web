@@ -20,20 +20,15 @@
   width: 200px;
   height: auto;
 }
-.h1 {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  //padding-left: 1px;
-}
 
 .subtitulos {
+  font-size: 20px;
   margin-top: 2.5%;
   margin-bottom: 0.5%;
   margin-left: 2.5%;
 }
 
-.linea {
+.line {
   border: 1px solid white;
   width: 95%;
   margin-left: 2.5%;
@@ -93,20 +88,53 @@
 .sectionProject {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Centra los elementos horizontalmente en el contenedor */
+  justify-content: center;
   padding: 10px;
 }
 
 .containerCard {
   padding: 20px;
-  flex: 1 1 200px; /* Los elementos tienen un mínimo de 200px de ancho y se expanden */
+  flex: 1 1 200px;
   display: flex;
-  justify-content: center; /* Centra los elementos horizontalmente en el contenedor */
+  justify-content: center;
+}
+.sectionTeam {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 10px;
 }
 
+.containerMember {
+  padding: 20px;
+  margin-left: 2.5%;
+  width: 200px;
+
+  text-align: center;
+}
+
+.profile {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
 @media (max-width: 1024px) {
   .containerCard {
-    flex: 1 1 33%; /* En pantallas medianas, los elementos ocupan el 33% del ancho del contenedor */
+    flex: 1 1 33%;
+  }
+  .containerMember {
+    flex: 1 1 33%;
   }
 }
 
@@ -128,7 +156,11 @@
   }
 
   .containerCard {
-    flex: 1 1 40%; /* En pantallas pequeñas, los elementos ocupan el 50% del ancho del contenedor */
+    flex: 1 1 40%;
+  }
+
+  .containerMember {
+    flex: 1 1 40%;
   }
 }
 
@@ -146,6 +178,10 @@
   }
 
   .containerCard {
-    flex: 1 1 100%; /* En pantallas muy pequeñas, los elementos ocupan el 100% del ancho del contenedor */
+    flex: 1 1 100%;
+  }
+
+  .containerMember {
+    flex: 1 1 100%;
   }
 }

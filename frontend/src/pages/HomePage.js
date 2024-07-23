@@ -2,6 +2,7 @@ import React from "react";
 import FlipCard from "../components/flipCard/flipCard";
 import CarouselComponent from "../components/carousel/carousel";
 import styles from "../styles/home.module.scss";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 const gamesAvailables = [
   {
@@ -28,7 +29,7 @@ function HomePage() {
           alt=""
         />
       </div>
-      <div className={styles.linea} />
+      <div className={styles.line} />
       <div className={styles.sectionGame}>
         <div className={styles.containerCarousel}>
           <CarouselComponent images={gamesAvailables[0].images} />
@@ -51,66 +52,158 @@ function HomePage() {
             <p className={styles.formalText}>
               Disponible en: <i className="fab fa-google-play"></i>
             </p>
-            <button className={styles.buttonTab}>Jugar</button>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.Argamunin.com.unity.template.mobile2D"
+              className={styles.iconButton}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.buttonTab}>Jugar</button>
+            </a>
           </div>
         </div>
       </div>
-      <p className={styles.subtitulos}> Nuestros proyectos </p>
-      <div className={styles.linea} />
-      <div className={styles.sectionProject}>
-        <div className={styles.containerCard}>
-          <FlipCard
-            frontContent={require("@images/img7.png")}
-            backContent={
-              <p>
-                ¡Prepárate para una aventura épica mientras desafiamos las leyes
-                del cosmos y luchamos contra el tiempo en esta emocionante
-                odisea espacial!
-              </p>
-            }
-          />
+      <section id="project-section">
+        <p className={styles.subtitulos}> Nuestros proyectos </p>
+        <div className={styles.line} />
+        <div className={styles.sectionProject}>
+          <div className={styles.containerCard}>
+            <FlipCard
+              frontContent={require("@images/img7.png")}
+              backContent={
+                <p>
+                  ¡Prepárate para una aventura épica mientras desafiamos las
+                  leyes del cosmos y luchamos contra el tiempo en esta
+                  emocionante odisea espacial!
+                </p>
+              }
+            />
+          </div>
+          <div className={styles.containerCard}>
+            <FlipCard
+              frontContent={require("@images/img7.png")}
+              backContent={
+                <p>
+                  ¡Prepárate para una aventura épica mientras desafiamos las
+                  leyes del cosmos y luchamos contra el tiempo en esta
+                  emocionante odisea espacial!
+                </p>
+              }
+            />
+          </div>
+          <div className={styles.containerCard}>
+            <FlipCard
+              frontContent={require("@images/img7.png")}
+              backContent={
+                <p>
+                  ¡Prepárate para una aventura épica mientras desafiamos las
+                  leyes del cosmos y luchamos contra el tiempo en esta
+                  emocionante odisea espacial!
+                </p>
+              }
+            />
+          </div>
+          <div className={styles.containerCard}>
+            <FlipCard
+              frontContent={require("@images/img7.png")}
+              backContent={
+                <p>
+                  ¡Prepárate para una aventura épica mientras desafiamos las
+                  leyes del cosmos y luchamos contra el tiempo en esta
+                  emocionante odisea espacial!
+                </p>
+              }
+            />
+          </div>
         </div>
-        <div className={styles.containerCard}>
-          <FlipCard
-            frontContent={require("@images/img7.png")}
-            backContent={
-              <p>
-                ¡Prepárate para una aventura épica mientras desafiamos las leyes
-                del cosmos y luchamos contra el tiempo en esta emocionante
-                odisea espacial!
-              </p>
-            }
-          />
+      </section>
+      <section id="team-section">
+        <p className={styles.subtitulos}> Equipo </p>
+        <div className={styles.line} />
+        <div className={styles.sectionTeam}>
+          <div className={styles.containerMember}>
+            <img
+              src={require("@images/team1.jpg")}
+              className={styles.profile}
+              alt=""
+            />
+            <div className={styles.name}>Lautaro De Benedetti</div>
+            <p>Desarrollador</p>
+            <div className={styles.icons}>
+              <a
+                href="https://www.linkedin.com/in/lautarodebenedetti/"
+                className={styles.iconButton}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/lautarodebenedetti"
+                className={styles.iconButton}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div className={styles.containerMember}>
+            <img
+              src={require("@images/team1.jpg")}
+              className={styles.profile}
+              alt=""
+            />
+            <div className={styles.name}>Lautaro De Benedetti</div>
+            <p>Desarrollador</p>
+            <div className={styles.icons}>
+              <a
+                href="https://www.linkedin.com/in/lautarodebenedetti/"
+                className={styles.iconButton}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/lautarodebenedetti"
+                className={styles.iconButton}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div className={styles.containerMember}>
+            <img
+              src={require("@images/team1.jpg")}
+              className={styles.profile}
+              alt=""
+            />
+            <div className={styles.name}>Lautaro De Benedetti</div>
+            <p>Desarrollador</p>
+            <div className={styles.icons}>
+              <a
+                href="https://www.linkedin.com/in/lautarodebenedetti/"
+                className={styles.iconButton}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/lautarodebenedetti"
+                className={styles.iconButton}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
         </div>
-        <div className={styles.containerCard}>
-          <FlipCard
-            frontContent={require("@images/img7.png")}
-            backContent={
-              <p>
-                ¡Prepárate para una aventura épica mientras desafiamos las leyes
-                del cosmos y luchamos contra el tiempo en esta emocionante
-                odisea espacial!
-              </p>
-            }
-          />
-        </div>
-        <div className={styles.containerCard}>
-          <FlipCard
-            frontContent={require("@images/img7.png")}
-            backContent={
-              <p>
-                ¡Prepárate para una aventura épica mientras desafiamos las leyes
-                del cosmos y luchamos contra el tiempo en esta emocionante
-                odisea espacial!
-              </p>
-            }
-          />
-        </div>
-      </div>
-
-      <p className={styles.subtitulos}> Equipo </p>
-      <div className={styles.linea} />
-      <div className={styles.team}>algo</div>
+      </section>
     </div>
   );
 }
