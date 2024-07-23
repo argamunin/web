@@ -17,8 +17,6 @@
   text-align: center;
 }
 .logo {
-  padding-left: 53px;
-  //padding-left: 20px;
   width: 200px;
   height: auto;
 }
@@ -46,9 +44,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2.5%;
-  margin-top: 2%;
+  gap: 10px;
   justify-content: space-between;
+  padding: 4px;
 }
 
 .containerCarousel {
@@ -94,9 +92,60 @@
 
 .sectionProject {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 2.5%;
-  margin: 2.5%;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los elementos horizontalmente en el contenedor */
+  padding: 10px;
+}
+
+.containerCard {
+  padding: 20px;
+  flex: 1 1 200px; /* Los elementos tienen un mínimo de 200px de ancho y se expanden */
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente en el contenedor */
+}
+
+@media (max-width: 1024px) {
+  .containerCard {
+    flex: 1 1 33%; /* En pantallas medianas, los elementos ocupan el 33% del ancho del contenedor */
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionGame {
+    flex-direction: column;
+  }
+
+  .containerCarousel {
+    width: 90%;
+    margin-left: 0%;
+  }
+
+  .containerDescription {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.5%;
+    width: 90%;
+  }
+
+  .containerCard {
+    flex: 1 1 40%; /* En pantallas pequeñas, los elementos ocupan el 50% del ancho del contenedor */
+  }
+}
+
+@media (max-width: 480px) {
+  .containerCarousel {
+    width: 90%;
+    margin-left: 0%;
+  }
+
+  .containerDescription {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.5%;
+    width: 90%;
+  }
+
+  .containerCard {
+    flex: 1 1 100%; /* En pantallas muy pequeñas, los elementos ocupan el 100% del ancho del contenedor */
+  }
 }
