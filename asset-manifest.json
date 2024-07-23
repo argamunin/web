@@ -1,28 +1,36 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.29ce1310.css",
-    "main.js": "/web/static/js/main.424b791d.js",
+    "main.css": "/web/static/css/main.a2928d1c.css",
+    "main.js": "/web/static/js/main.773b7ff6.js",
     "static/js/453.8ab44547.chunk.js": "/web/static/js/453.8ab44547.chunk.js",
     "static/media/logo-v5.gif": "/web/static/media/logo-v5.67718bfb4b4d915c09af.gif",
     "static/media/img5.png": "/web/static/media/img5.8d7223beaa6e00c12fb3.png",
     "static/media/img6.png": "/web/static/media/img6.05b2f03b179d1bf353c0.png",
+    "static/media/fa-solid-900.ttf": "/web/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/img1.png": "/web/static/media/img1.ca1dcf12d264901e9ba4.png",
     "static/media/img4.png": "/web/static/media/img4.7c602139842aafa9c06a.png",
     "static/media/logo1.png": "/web/static/media/logo1.d99ff26b41b1f127e876.png",
     "static/media/img2.png": "/web/static/media/img2.87d501bcdd0044db52a9.png",
     "static/media/img3.png": "/web/static/media/img3.59fb87a940e228200fc9.png",
     "static/media/img7.png": "/web/static/media/img7.efcfec4ca7d3308eb7be.png",
+    "static/media/fa-brands-400.ttf": "/web/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/web/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/web/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/web/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/web/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/Quantico-Italic.ttf": "/web/static/media/Quantico-Italic.d5ed5522399bb44bc8c1.ttf",
     "static/media/Quantico-Regular.ttf": "/web/static/media/Quantico-Regular.882d4409a856c0986247.ttf",
     "static/media/Quantico-Bold.ttf": "/web/static/media/Quantico-Bold.ef0b676bf9e69cb7dede.ttf",
     "static/media/Quantico-BoldItalic.ttf": "/web/static/media/Quantico-BoldItalic.f4515c85ca1dba7c25a6.ttf",
+    "static/media/fa-v4compatibility.ttf": "/web/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/web/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/web/index.html",
-    "main.29ce1310.css.map": "/web/static/css/main.29ce1310.css.map",
-    "main.424b791d.js.map": "/web/static/js/main.424b791d.js.map",
+    "main.a2928d1c.css.map": "/web/static/css/main.a2928d1c.css.map",
+    "main.773b7ff6.js.map": "/web/static/js/main.773b7ff6.js.map",
     "453.8ab44547.chunk.js.map": "/web/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29ce1310.css",
-    "static/js/main.424b791d.js"
+    "static/css/main.a2928d1c.css",
+    "static/js/main.773b7ff6.js"
   ]
 }
