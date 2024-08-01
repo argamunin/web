@@ -3,7 +3,7 @@
   height: 100%;
 }
 
-.marca {
+.brand {
   display: flex;
   align-items: center;
   align-content: center;
@@ -12,16 +12,16 @@
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  //width: 144px;
   width: 210px;
   text-align: center;
 }
+
 .logo {
   width: 200px;
   height: auto;
 }
 
-.subtitulos {
+.subtitle {
   font-size: 20px;
   margin-top: 2.5%;
   margin-bottom: 0.5%;
@@ -35,28 +35,27 @@
   margin-right: 2.5%;
 }
 
-.sectionGame {
+.gameSection {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
   justify-content: space-between;
-  padding: 4px;
 }
 
-.containerCarousel {
+.carouselContainer {
   margin-left: 2.5%;
   width: 50%;
 }
 
-.containerDescription {
+.descriptionContainer {
   display: flex;
   flex-direction: column;
   margin-right: 2.5%;
   width: 50%;
 }
 
-.sectionButton {
+.buttonSection {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -85,27 +84,40 @@
   box-shadow: 50px;
 }
 
-.sectionProject {
+.buttonTabLarge {
+  border-color: transparent;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #1d428a;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  font-size: large;
+  box-shadow: 50px;
+}
+
+.projectSection {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
 }
 
-.containerCard {
+.cardContainer {
   padding: 20px;
   flex: 1 1 200px;
   display: flex;
   justify-content: center;
 }
-.sectionTeam {
+
+.teamSection {
   display: flex;
   flex-wrap: wrap;
 
   padding: 10px;
 }
 
-.containerMember {
+.memberContainer {
   padding: 20px;
   margin-left: 2.5%;
   width: 200px;
@@ -129,59 +141,60 @@
   justify-content: center;
   gap: 5px;
 }
+
 @media (max-width: 1024px) {
-  .containerCard {
+  .cardContainer {
     flex: 1 1 33%;
   }
-  .containerMember {
+  .memberContainer {
     flex: 1 1 33%;
   }
 }
 
 @media (max-width: 768px) {
-  .sectionGame {
+  .gameSection {
     flex-direction: column;
   }
 
-  .containerCarousel {
+  .carouselContainer {
     width: 90%;
     margin-left: 0%;
   }
 
-  .containerDescription {
+  .descriptionContainer {
     display: flex;
     flex-direction: column;
     margin-right: 2.5%;
     width: 90%;
   }
 
-  .containerCard {
+  .cardContainer {
     flex: 1 1 40%;
   }
 
-  .containerMember {
+  .memberContainer {
     flex: 1 1 40%;
   }
 }
 
 @media (max-width: 480px) {
-  .containerCarousel {
+  .carouselContainer {
     width: 90%;
     margin-left: 0%;
   }
 
-  .containerDescription {
+  .descriptionContainer {
     display: flex;
     flex-direction: column;
     margin-right: 2.5%;
     width: 90%;
   }
 
-  .containerCard {
+  .cardContainer {
     flex: 1 1 100%;
   }
 
-  .containerMember {
+  .memberContainer {
     flex: 1 1 100%;
   }
 }

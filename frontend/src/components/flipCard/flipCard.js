@@ -12,11 +12,16 @@ const FlipCard = ({ frontContent, backContent }) => {
     setIsFlipped(false);
   };
 
+  const handleTouchStart = () => {
+    setIsFlipped(!isFlipped);
+  };
+
   return (
     <div
       className={`flip-card ${isFlipped ? "flipped" : ""}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onTouchStart={handleTouchStart}
     >
       <div className="flip-card-inner">
         <div className="flip-card-front">

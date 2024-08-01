@@ -22,7 +22,7 @@ const gamesAvailables = [
 function HomePage() {
   return (
     <div>
-      <div className={styles.marca}>
+      <div className={styles.brand}>
         <img
           src={require("@images/logo1.png")}
           className={styles.logo}
@@ -30,11 +30,11 @@ function HomePage() {
         />
       </div>
       <div className={styles.line} />
-      <div className={styles.sectionGame}>
-        <div className={styles.containerCarousel}>
+      <div className={styles.gameSection}>
+        <div className={styles.carouselContainer}>
           <CarouselComponent images={gamesAvailables[0].images} />
         </div>
-        <div className={styles.containerDescription}>
+        <div className={styles.descriptionContainer}>
           <p className={styles.text}>
             ¡Emergencia espacial! La nave de capitán Toki y su intrépida
             tripulación ha sufrido un desperfecto catastrófico, dejándolos sin
@@ -48,7 +48,7 @@ function HomePage() {
             leyes del cosmos y luchamos contra el tiempo en esta emocionante
             odisea espacial!
           </p>
-          <div className={styles.sectionButton}>
+          <div className={styles.buttonSection}>
             <p className={styles.formalText}>
               Disponible en: <i className="fab fa-google-play"></i>
             </p>
@@ -64,10 +64,10 @@ function HomePage() {
         </div>
       </div>
       <section id="project-section">
-        <p className={styles.subtitulos}> Nuestros proyectos </p>
+        <p className={styles.subtitle}> Nuestros proyectos </p>
         <div className={styles.line} />
-        <div className={styles.sectionProject}>
-          <div className={styles.containerCard}>
+        <div className={styles.projectSection}>
+          <div className={styles.cardContainer}>
             <FlipCard
               frontContent={require("@images/img7.png")}
               backContent={
@@ -89,67 +89,74 @@ function HomePage() {
               }
             />
           </div>
-          <div className={styles.containerCard}>
+          <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("@images/img7.png")}
+              frontContent={require("@images/mahjong.png")}
               backContent={
                 <div>
                   <p>
-                    ¡Prepárate para una aventura épica mientras desafiamos las
-                    leyes del cosmos y luchamos contra el tiempo en esta
-                    emocionante odisea espacial!
+                    ¡Descubre la magia del Mahjong como nunca antes! Te
+                    presentamos nuestra versión reimaginada del clásico juego
+                    con fichas adornadas con imágenes representativas de
+                    Argentina.
                   </p>
                   <a
-                    href="https://play.google.com/store/apps/details?id=com.Argamunin.com.unity.template.mobile2D"
+                    href="https://play.google.com/store/apps/developer?id=argamunin"
                     className={styles.iconButton}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className={styles.buttonTab}>Jugar</button>
+                    <button className={styles.buttonTabLarge} disabled>
+                      Próximamente
+                    </button>
                   </a>
                 </div>
               }
             />
           </div>
-          <div className={styles.containerCard}>
+          <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("@images/img7.png")}
+              frontContent={require("@images/logo-v5.gif")}
               backContent={
                 <div>
                   <p>
-                    ¡Prepárate para una aventura épica mientras desafiamos las
-                    leyes del cosmos y luchamos contra el tiempo en esta
-                    emocionante odisea espacial!
+                    ¡Prepárate para más sorpresas! Estamos trabajando en nuevos
+                    proyectos. Mantenete atento a nuestras actualizaciones y sé
+                    el primero en descubrir las novedades.
                   </p>
                   <a
-                    href="https://play.google.com/store/apps/details?id=com.Argamunin.com.unity.template.mobile2D"
+                    href=" "
                     className={styles.iconButton}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className={styles.buttonTab}>Jugar</button>
+                    <button className={styles.buttonTabLarge} disabled>
+                      Próximamente
+                    </button>
                   </a>
                 </div>
               }
             />
           </div>
-          <div className={styles.containerCard}>
+          <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("@images/img7.png")}
+              frontContent={require("@images/logo-v5.gif")}
               backContent={
                 <div>
                   <p>
-                    ¡Prepárate para una aventura épica mientras desafiamos las
-                    leyes del cosmos y luchamos contra el tiempo en esta
-                    emocionante odisea espacial!
+                    ¡Prepárate para más sorpresas! Estamos trabajando en nuevos
+                    proyectos. Mantenete atento a nuestras actualizaciones y sé
+                    el primero en descubrir las novedades.
                   </p>
                   <a
-                    href="https://play.google.com/store/apps/details?id=com.Argamunin.com.unity.template.mobile2D"
+                    href=" "
                     className={styles.iconButton}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className={styles.buttonTab}>Jugar</button>
+                    <button className={styles.buttonTabLarge} disabled>
+                      Próximamente
+                    </button>
                   </a>
                 </div>
               }
@@ -158,10 +165,10 @@ function HomePage() {
         </div>
       </section>
       <section id="team-section">
-        <p className={styles.subtitulos}> Equipo </p>
+        <p className={styles.subtitle}> Equipo </p>
         <div className={styles.line} />
-        <div className={styles.sectionTeam}>
-          <div className={styles.containerMember}>
+        <div className={styles.teamSection}>
+          <div className={styles.memberContainer}>
             <img
               src={require("@images/team1.jpg")}
               className={styles.profile}
@@ -188,17 +195,17 @@ function HomePage() {
               </a>
             </div>
           </div>
-          <div className={styles.containerMember}>
+          <div className={styles.memberContainer}>
             <img
-              src={require("@images/team1.jpg")}
+              src={require("@images/profileicon.png")}
               className={styles.profile}
               alt=""
             />
-            <div className={styles.name}>Lautaro De Benedetti</div>
-            <p>Desarrollador</p>
+            <div className={styles.name}>Nombre Apellido</div>
+            <p>- - -</p>
             <div className={styles.icons}>
               <a
-                href="https://www.linkedin.com/in/lautarodebenedetti/"
+                href="https://www.linkedin.com/"
                 className={styles.iconButton}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -206,7 +213,7 @@ function HomePage() {
                 <i className="fab fa-linkedin"></i>
               </a>
               <a
-                href="https://github.com/lautarodebenedetti"
+                href="https://github.com/"
                 className={styles.iconButton}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -215,17 +222,17 @@ function HomePage() {
               </a>
             </div>
           </div>
-          <div className={styles.containerMember}>
+          <div className={styles.memberContainer}>
             <img
-              src={require("@images/team1.jpg")}
+              src={require("@images/profileicon.png")}
               className={styles.profile}
               alt=""
             />
-            <div className={styles.name}>Lautaro De Benedetti</div>
-            <p>Desarrollador</p>
+            <div className={styles.name}>Nombre Apellido</div>
+            <p>- - -</p>
             <div className={styles.icons}>
               <a
-                href="https://www.linkedin.com/in/lautarodebenedetti/"
+                href="https://www.linkedin.com"
                 className={styles.iconButton}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -233,7 +240,7 @@ function HomePage() {
                 <i className="fab fa-linkedin"></i>
               </a>
               <a
-                href="https://github.com/lautarodebenedetti"
+                href="https://github.com/"
                 className={styles.iconButton}
                 target="_blank"
                 rel="noopener noreferrer"
