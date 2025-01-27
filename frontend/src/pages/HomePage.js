@@ -116,23 +116,25 @@ function HomePage() {
           </div>
           <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("@images/logo-v5.gif")}
+              frontContent={require("@images/chromaticChaos.png")}
               backContent={
                 <div>
                   <p>
-                    ¡Prepárate para más sorpresas! Estamos trabajando en nuevos
-                    proyectos. Mantenete atento a nuestras actualizaciones y sé
-                    el primero en descubrir las novedades.
+                    ¡El equilibrio del color está en tus manos! Tras un
+                    accidente en los laboratorios Cromáticos, el caos se ha
+                    desatado: las esencias de color, contenidas en delicadas
+                    burbujas mágicas, flotan fuera de control.
+                    <br />
+                    ¿Estás listo para restaurar el equilibrio antes de que los
+                    colores se mezclen y desaten una catástrofe gris?
                   </p>
                   <a
-                    href=" "
+                    href="https://argamunin.itch.io/chromatic-chaos"
                     className={styles.iconButton}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className={styles.buttonTabLarge} disabled>
-                      Próximamente
-                    </button>
+                    <button className={styles.buttonTabLarge}>Jugar</button>
                   </a>
                 </div>
               }
@@ -197,15 +199,15 @@ function HomePage() {
           </div>
           <div className={styles.memberContainer}>
             <img
-              src={require("@images/profileicon.png")}
+              src={require("@images/team2.jpeg")}
               className={styles.profile}
               alt=""
             />
-            <div className={styles.name}>Nombre Apellido</div>
+            <div className={styles.name}>Agustina Mendez</div>
             <p>- - -</p>
             <div className={styles.icons}>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/agustinabmendez/"
                 className={styles.iconButton}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -213,7 +215,7 @@ function HomePage() {
                 <i className="fab fa-linkedin"></i>
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/aguuusbelen"
                 className={styles.iconButton}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -224,15 +226,15 @@ function HomePage() {
           </div>
           <div className={styles.memberContainer}>
             <img
-              src={require("@images/profileicon.png")}
+              src={require("@images/team3.PNG")}
               className={styles.profile}
               alt=""
             />
-            <div className={styles.name}>Nombre Apellido</div>
-            <p>- - -</p>
+            <div className={styles.name}>Catriel De Benedetti</div>
+            <p>Diseñador Gráfico</p>
             <div className={styles.icons}>
               <a
-                href="https://www.linkedin.com"
+                href="https://ar.linkedin.com/in/catrieldebenedetti"
                 className={styles.iconButton}
                 target="_blank"
                 rel="noopener noreferrer"
