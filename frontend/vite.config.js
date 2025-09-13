@@ -12,9 +12,11 @@ export default defineConfig({
       '@styles': path.resolve(__dirname, './src/styles'),
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/web/' : '/',
+  base: '/',
   build: {
-    outDir: '../dist',
+    outDir: 'dist',
+    copyPublicDir: true,
   },
+  publicDir: 'public',
   assetsInclude: ['**/*.PNG', '**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg'],
 })
