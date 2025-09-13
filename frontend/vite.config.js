@@ -14,7 +14,7 @@ export default defineConfig({
   },
   base: process.env.NODE_ENV === 'production' ? '/web/' : '/',
   build: {
-    outDir: 'dist',
+    outDir: '../dist',
   },
   assetsInclude: ['**/*.PNG', '**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg'],
 })
