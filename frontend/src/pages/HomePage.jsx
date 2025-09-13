@@ -1,8 +1,16 @@
 import React from "react";
-import FlipCard from "../components/flipCard/flipCard";
-import CarouselComponent from "../components/carousel/carousel";
+import FlipCard from "../components/flipCard/flipCard.jsx";
+import CarouselComponent from "../components/carousel/carousel.jsx";
 import styles from "../styles/home.module.scss";
 import "@fortawesome/fontawesome-free/css/all.css";
+import logo1 from "@images/logo1.png";
+import img7 from "@images/img7.png";
+import mahjong from "@images/mahjong.png";
+import chromaticChaos from "@images/chromaticChaos.png";
+import logoV5 from "@images/logo-v5.gif";
+import team1 from "@images/team1.jpg";
+import team2 from "@images/team2.jpeg";
+import team3 from "@images/team3.PNG";
 
 const gamesAvailables = [
   {
@@ -24,7 +32,7 @@ function HomePage() {
     <div>
       <div className={styles.brand}>
         <img
-          src={require("../images/logo1.png")}
+          src={logo1}
           className={styles.logo}
           alt=""
         />
@@ -69,7 +77,7 @@ function HomePage() {
         <div className={styles.projectSection}>
           <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("../images/img7.png")}
+              frontContent={img7}
               backContent={
                 <div>
                   <p>
@@ -91,7 +99,7 @@ function HomePage() {
           </div>
           <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("../images/mahjong.png")}
+              frontContent={mahjong}
               backContent={
                 <div>
                   <p>
@@ -116,7 +124,7 @@ function HomePage() {
           </div>
           <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("../images/chromaticChaos.png")}
+              frontContent={chromaticChaos}
               backContent={
                 <div>
                   <p>
@@ -142,7 +150,7 @@ function HomePage() {
           </div>
           <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("../images/logo-v5.gif")}
+              frontContent={logoV5}
               backContent={
                 <div>
                   <p>
@@ -172,7 +180,7 @@ function HomePage() {
         <div className={styles.teamSection}>
           <div className={styles.memberContainer}>
             <img
-              src={require("../images/team1.jpg")}
+              src={team1}
               className={styles.profile}
               alt=""
             />
@@ -199,7 +207,7 @@ function HomePage() {
           </div>
           <div className={styles.memberContainer}>
             <img
-              src={require("../images/team2.jpeg")}
+              src={team2}
               className={styles.profile}
               alt=""
             />
@@ -226,7 +234,7 @@ function HomePage() {
           </div>
           <div className={styles.memberContainer}>
             <img
-              src={require("../images/team3.PNG")}
+              src={team3}
               className={styles.profile}
               alt=""
             />

@@ -1,5 +1,5 @@
-import Footer from "./footer/footer";
-import Header from "./header/header";
+import Footer from "./footer/footer.jsx";
+import Header from "./header/header.jsx";
 import styles from './layout.module.scss';
 
 export default function Layout({ children }) {

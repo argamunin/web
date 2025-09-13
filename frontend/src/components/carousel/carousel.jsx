@@ -1,6 +1,6 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import ImageComponent from "../shared/image/Image";
+import ImageComponent from "../shared/image/Image.jsx";
 // import CarouselItem from "./carouselItem/carouselItem";
 
 const CarouselComponent = ({ images }) => {
