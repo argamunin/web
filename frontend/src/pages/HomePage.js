@@ -24,7 +24,7 @@ function HomePage() {
     <div>
       <div className={styles.brand}>
         <img
-          src={require("@images/logo1.png")}
+          src={require("../images/logo1.png")}
           className={styles.logo}
           alt=""
         />
@@ -69,7 +69,7 @@ function HomePage() {
         <div className={styles.projectSection}>
           <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("@images/img7.png")}
+              frontContent={require("../images/img7.png")}
               backContent={
                 <div>
                   <p>
@@ -91,7 +91,7 @@ function HomePage() {
           </div>
           <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("@images/mahjong.png")}
+              frontContent={require("../images/mahjong.png")}
               backContent={
                 <div>
                   <p>
@@ -116,7 +116,7 @@ function HomePage() {
           </div>
           <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("@images/chromaticChaos.png")}
+              frontContent={require("../images/chromaticChaos.png")}
               backContent={
                 <div>
                   <p>
@@ -142,7 +142,7 @@ function HomePage() {
           </div>
           <div className={styles.cardContainer}>
             <FlipCard
-              frontContent={require("@images/logo-v5.gif")}
+              frontContent={require("../images/logo-v5.gif")}
               backContent={
                 <div>
                   <p>
@@ -172,7 +172,7 @@ function HomePage() {
         <div className={styles.teamSection}>
           <div className={styles.memberContainer}>
             <img
-              src={require("@images/team1.jpg")}
+              src={require("../images/team1.jpg")}
               className={styles.profile}
               alt=""
             />
@@ -199,7 +199,7 @@ function HomePage() {
           </div>
           <div className={styles.memberContainer}>
             <img
-              src={require("@images/team2.jpeg")}
+              src={require("../images/team2.jpeg")}
               className={styles.profile}
               alt=""
             />
@@ -226,7 +226,7 @@ function HomePage() {
           </div>
           <div className={styles.memberContainer}>
             <img
-              src={require("@images/team3.PNG")}
+              src={require("../images/team3.PNG")}
               className={styles.profile}
               alt=""
             />
