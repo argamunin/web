@@ -8,7 +8,7 @@ function App() {
   return (
     <Layout>
       <div className="App">
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename={import.meta.env.BASE_URL}>
           <Routes>
             <Route path="/" element={<HomePage />} />
           </Routes>

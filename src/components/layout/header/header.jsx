@@ -1,12 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import styles from "./header.module.scss";
+import logoV5 from "../../../images/logo-v5.gif";
 
 export default function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
         <img
-          src={require("../../../images/logo-v5.gif")}
+          src={logoV5}
           width={"50px"}
           height={"50px"}
           className={styles.logo}
