@@ -12,7 +12,7 @@
     "react-dom": "^18.3.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.25.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "sass": "^1.77.8",
     "web-vitals": "^2.1.4"
   },
@@ -22,7 +22,8 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "vercel-build": "react-app-rewired build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +46,6 @@
   "devDependencies": {
     "customize-cra": "^1.0.0",
     "gh-pages": "^6.1.1",
-    "react-app-rewired": "^2.2.1"
+    "react-app-rewired": "^0.1.0"
   }
 }
