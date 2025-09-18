@@ -31,11 +31,7 @@ function HomePage() {
   return (
     <div>
       <div className={styles.brand}>
-        <img
-          src={logo1}
-          className={styles.logo}
-          alt=""
-        />
+        <img src={logo1} className={styles.logo} alt="" />
       </div>
       <div className={styles.line} />
       <div className={styles.gameSection}>
@@ -97,7 +93,7 @@ function HomePage() {
               }
             />
           </div>
-          <div className={styles.cardContainer}>
+          {/* <div className={styles.cardContainer}>
             <FlipCard
               frontContent={mahjong}
               backContent={
@@ -121,7 +117,7 @@ function HomePage() {
                 </div>
               }
             />
-          </div>
+          </div> */}
           <div className={styles.cardContainer}>
             <FlipCard
               frontContent={chromaticChaos}
@@ -172,6 +168,30 @@ function HomePage() {
               }
             />
           </div>
+          <div className={styles.cardContainer}>
+            <FlipCard
+              frontContent={logoV5}
+              backContent={
+                <div>
+                  <p>
+                    ¡Prepárate para más sorpresas! Estamos trabajando en nuevos
+                    proyectos. Mantenete atento a nuestras actualizaciones y sé
+                    el primero en descubrir las novedades.
+                  </p>
+                  <a
+                    href=" "
+                    className={styles.iconButton}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className={styles.buttonTabLarge} disabled>
+                      Próximamente
+                    </button>
+                  </a>
+                </div>
+              }
+            />
+          </div>
         </div>
       </section>
       <section id="team-section">
@@ -179,11 +199,7 @@ function HomePage() {
         <div className={styles.line} />
         <div className={styles.teamSection}>
           <div className={styles.memberContainer}>
-            <img
-              src={team1}
-              className={styles.profile}
-              alt=""
-            />
+            <img src={team1} className={styles.profile} alt="" />
             <div className={styles.name}>Lautaro De Benedetti</div>
             <p>Desarrollador</p>
             <div className={styles.icons}>
@@ -206,11 +222,7 @@ function HomePage() {
             </div>
           </div>
           <div className={styles.memberContainer}>
-            <img
-              src={team2}
-              className={styles.profile}
-              alt=""
-            />
+            <img src={team2} className={styles.profile} alt="" />
             <div className={styles.name}>Agustina Mendez</div>
             <p>- - -</p>
             <div className={styles.icons}>
@@ -233,11 +245,7 @@ function HomePage() {
             </div>
           </div>
           <div className={styles.memberContainer}>
-            <img
-              src={team3}
-              className={styles.profile}
-              alt=""
-            />
+            <img src={team3} className={styles.profile} alt="" />
             <div className={styles.name}>Catriel De Benedetti</div>
             <p>Diseñador Gráfico</p>
             <div className={styles.icons}>
